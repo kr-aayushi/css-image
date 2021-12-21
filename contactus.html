@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us-HTML&CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,500&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: darkseagreen;
+            font-size: 14px;
+        }
+
+        .container {
+
+
+            width: 80%;
+            height: 80%;
+            margin: 120px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .contact-us {
+
+
+
+
+            box-shadow: 10px 8px;
+            display: flex;
+
+            background-color: white;
+        }
+
+        .content-left {
+
+            flex-basis: 60%;
+
+            padding: 40px 60px;
+            border: 2px solid black;
+        }
+
+        .content-right {
+            flex-basis: 40%;
+            padding: 40px;
+            background-color: blue;
+        }
+
+        .container p {
+            margin: 10px;
+        }
+
+        .container h3 {
+            margin: 10px;
+        }
+
+        .input-row {
+
+            display:column;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            
+
+        }
+
+        .input-row.input-group {
+            flex-basis: 45%;
+            
+
+        }
+
+        input {
+           text-align: justify;
+            padding: 10px;
+            margin: 20px;
+            width: 100%;
+
+        }
+        .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+ 
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Connect With Us
+        </h1>
+        <p>We would like to solve your queries and answer it as soon as possible</p>
+        <div class="contact-us">
+
+            <div class="content-left">
+                <h3>Send Your Request</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="John Dae">
+
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="tel" placeholder="+91 8888888888">
+                        </div>
+                        <div class="input-group">
+                            <label>E-mail</label>
+                            <input type="email" placeholder="John_Dae@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Demo">
+                        </div>
+                        <button class="button button1">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="content-right">
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td>
+                            E-mail Id:-john@gmail.com
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
